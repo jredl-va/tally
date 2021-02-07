@@ -156,7 +156,7 @@ func (r *cactusStatsReporter) Reporting() bool {
 }
 
 func (r *cactusStatsReporter) Tagging() bool {
-	return false
+	return true
 }
 
 func (r *cactusStatsReporter) Flush() {
